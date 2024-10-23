@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-pipe1=pickle.load(open('1st_pipe.pkl','rb'))
-pipe2=pickle.load(open('2nd_pipe.pkl','rb'))
+pipe1=pickle.load(open('./1st_pipe.pkl','rb'))
+pipe2=pickle.load(open('./2nd_pipe.pkl','rb'))
 st.title("IPL Win Predictor")
 cities=['Bangalore', 'Chandigarh', 'Delhi', 'Mumbai', 'Kolkata', 'Jaipur','Hyderabad', 'Chennai', 'Cape Town', 'Port Elizabeth', 'Durban','Centurion', 'East London', 'Johannesburg', 'Kimberley','Bloemfontein', 'Ahmedabad', 'Cuttack', 'Nagpur', 'Dharamsala','Visakhapatnam', 'Pune', 'Raipur', 'Ranchi', 'Abu Dhabi','Bengaluru', 'Indore', 'Dubai', 'Sharjah', 'Navi Mumbai','Lucknow', 'Guwahati', 'Mohali']
 teams=['Mumbai Indians','Kolkata Knight Riders','Rajasthan Royals','Chennai Super Kings','Sunrisers Hyderabad','Delhi Capitals','Punjab Kings','Lucknow Super Giants','Gujarat Titans','Royal Challengers Bengaluru']
